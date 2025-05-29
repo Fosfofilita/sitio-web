@@ -4,7 +4,7 @@ header{
     margin-top: 80px;
 }
 
-h1{font-family: "rowdies";}
+h1,h3,h2{font-family: "rowdies";}
 
     #review {
     background-color: lightblue;
@@ -21,6 +21,3 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
 }
-
-
-h3,h2{font-family: "rowdies";}
