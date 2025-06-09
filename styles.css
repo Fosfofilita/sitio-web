@@ -1,5 +1,12 @@
+.navbar{
+    font-size: larger;
+    font-weight: bold;
+}
+.sitio_inicio{
+    font-size: 500%;
+    font-weight:bold;
+}
 
-/* bootstrap*/
 header{
     margin-top: 80px;
 }
@@ -21,3 +28,31 @@ footer {
     background-repeat: no-repeat;
     background-position: center;
 }
+.mapa{
+    margin-top: 15px;
+}
+.boton_compra{
+    margin-top: 20px;
+    width: 30%;
+    height: 50%;}
+
+.btn_wsp{
+    position: fixed;
+    width: 66px;     
+    height: 66px;    
+    line-height: 66px;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25D366;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 36px; 
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+.btn_opi{
+    margin-top: 20px;
+    text-align: center;
+}
+i{margin: 6px;}
