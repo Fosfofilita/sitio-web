@@ -13,15 +13,11 @@ h1, h2, h3 {
 }   
 form{
     padding: 20px;
-    background-color: rgb(204, 243, 245);
-}
-image {
-    width: 95%;
-
-    margin-top: 70px; 
+    background-color: #b8cadb;
 }
 .card {
     margin-top: 10px;
+    margin-left: 20px;
 }
 .btn_wsp{
     position: fixed;
@@ -46,4 +42,46 @@ i{margin: 5px;}
 .sitio_inicio{
     font-size: 500%;
     font-weight:bold;
+}
+
+<!--sliderrr-->
+
+.slider-wrapper {
+    position: relative;
+    max-width: 40%; /* Aumenta el ancho para que sea visible junto al card */
+    margin: 0;      /* Elimina el centrado automático */
+    float: left;    /* Posiciona el slider a la izquierda */
+}
+.slider {
+    display: flex;
+    overflow-x: auto;
+    aspect-ratio: 10/9;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    border-radius: 0.5rem;
+}
+.slider img {
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+}
+.slider-nav {
+    display: flex;
+    column-gap: 1.0rem;
+    position: relative;
+    bottom: 2rem;
+    left: 50%;
+    z-index: 1;
+}
+.slider-nav a {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background-color: #fff;
+    border: none;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+}
+.slider-nav a:hover {
+    opacity: 1;
 }
